@@ -1,4 +1,3 @@
-import { Star } from "lucide-react"
 import Stars from "./Stars"
 import {data} from '../data'
 
@@ -23,7 +22,7 @@ const Reviews = () => {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-13">
                 {data.map((review, index)=>(
-                    <div className="flex flex-col gap-4 p-6 border-2 rounded-lg border-purple-200  text-start hover:shadow-2xl hover:border-purple transition-all duration-300">
+                    <div key={index}className="flex flex-col gap-4 p-6 border-2 rounded-lg border-purple-200  text-start hover:shadow-2xl hover:border-purple transition-all duration-300">
                         <Stars size={5}/>
                         <p className="text-lg text-muted-foreground">{review.text}</p>
                         <div className="flex flex-col">
