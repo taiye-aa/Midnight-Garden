@@ -3,17 +3,21 @@ import ThemeToggle from './ThemeToggle'
 import { Menu, ShoppingBag, XIcon } from 'lucide-react'
 import {cn} from './../lib/utils'
 
+type NavItem = {
+    name:string
+    href:string
+}
 const Navbar = () => {
-    const navItems=[
+    const navItems:NavItem[]=[
         {name:"Story",href:"#story"},
         {name:"Author",href:"#author"},
         {name:"Praise",href:"#praise"}
     ]
-    const [isMenuOpen, setIsMenuOpen]=useState(false);
+    const [isMenuOpen, setIsMenuOpen]=useState<boolean>(false);
     const [navbar, setNavbar]=useState(false);
 
     useEffect(()=>{
-        window.addEventListener('scroll', ()=>{
+        window.addEventListener('scroll', ():void=>{
         if(window.scrollY >= 88){
             setNavbar(true);
         }else{

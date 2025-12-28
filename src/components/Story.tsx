@@ -1,6 +1,7 @@
 import { BookOpen, Heart, Quote, Sparkles } from 'lucide-react'
 import { cn } from '../lib/utils'
 
+
 const Story = () => {
     const tags=[
         {label:"Epic Tale", icon:BookOpen},
