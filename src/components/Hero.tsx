@@ -1,5 +1,4 @@
 import { ArrowRight, ShoppingBag } from 'lucide-react'
-import React from 'react'
 
 const Hero = () => {
     const stats=[
