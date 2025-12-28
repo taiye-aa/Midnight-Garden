@@ -18,7 +18,7 @@ const Hero = () => {
                     A spellbinding journey where memories bloom under moonlight and the boundaries between dreams and reality blur into magic.
                 </p>
                 <div className='flex space-x-8'>
-                    <button className='text-md lg:text-xl px-4 py-2 bg-primary-gradient text-background rounded-lg font-semibold flex items-center justify-center gap-2 cursor-pointer'>
+                    <button className='text-md lg:text-xl px-4 py-2 bg-primary-gradient text-background rounded-lg font-semibold flex items-center justify-center hover:opacity-80 transition-all duration-300 gap-2 cursor-pointer'>
                         <ShoppingBag/> <span>Buy Now - $24.99</span>
                     </button>
                     <button className='text-md lg:text-xl px-4 py-2 bg-secondary text-foreground rounded-lg border-2 border-muted-foreground hover:border-purple transition-all duration-300  font-semibold flex items-center justify-center gap-2 cursor-pointer'>
