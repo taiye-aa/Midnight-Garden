@@ -1,5 +1,4 @@
 import { ArrowRight, BookOpen, Quote } from 'lucide-react'
-import React from 'react'
 
 const Sample = () => {
   return (
