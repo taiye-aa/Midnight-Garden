@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='container grid grid-cols-1 gap-16 lg:gap-32 lg:grid-cols-2 max-w-7xl'>
             <div className='flex flex-col space-y-6 order-2 lg:order-1 text-start'>
                 <div className=' flex gap-3 px-2 py-1 bg-primary-gradient text-background w-fit rounded-lg text-xs font-semibold'>
-                   <Sparkles className='h-4 w-4'/><span >New York Times Bestseller</span>
+                   <Sparkles strokeWidth={0} className='h-4 w-4 fill-amber-400 '/><span >New York Times Bestseller</span>
 
                 </div>
                 <h1 className='text-6xl lg:text-7xl tracking-tight text-text-color leading-tight'>
