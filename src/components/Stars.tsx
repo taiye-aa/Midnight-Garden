@@ -1,14 +1,13 @@
 import { Star } from "lucide-react"
 
-const Stars = ({size}:{size:number}) => {
+const Stars = ({size, classname}:{size:number, classname?:string}) => {
   return (
-    <div className="flex gap-1">
-       <Star fill="gold" strokeWidth={0} className={`h-${size} w-${size}`}/>
-       <Star fill="gold" strokeWidth={0} className={`h-${size} w-${size}`}/>
-       <Star fill="gold" strokeWidth={0} className={`h-${size} w-${size}`}/>
-       <Star fill="gold" strokeWidth={0} className={`h-${size} w-${size}`}/>
-       <Star fill="gold" strokeWidth={0} className={`h-${size} w-${size}`}/>
-
+    <div className="flex ">
+       <Star className={classname}  size={size}/>
+       <Star className={classname}   size={size}/>
+       <Star className={classname}   size={size}/>
+       <Star className={classname}   size={size}/>
+       <Star className={classname}   size={size}/>
     </div>
   )
 }

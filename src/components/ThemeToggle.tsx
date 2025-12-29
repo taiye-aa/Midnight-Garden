@@ -28,7 +28,7 @@ const ThemeToggle = () => {
     }
   return (
     <button onClick={toggleTheme} className='cursor-pointer'>
-        {isDarkMode? <Sun className="h-6 w-6 text-yellow-400"/> :<Moon className="h-6 w-6 text-blue-900"/>}
+        {isDarkMode? <Sun className="h-5 w-5 text-yellow-400"/> :<Moon className="h-5 w-5 text-blue-900"/>}
     </button>
   )
 }

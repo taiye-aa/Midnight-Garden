@@ -8,7 +8,7 @@ const strip = () => {
         {label:"Limited Edition", icon:Sparkle},
     ]
   return (
-    <div className='bg-foreground grid grid-cols-2 md:grid-cols-4 py-8 px-6 place-items-center gap-4'>
+    <div className='bg-text-color grid grid-cols-2 md:grid-cols-4 py-8 px-6 place-items-center gap-4'>
         {stats.map((stat, index)=>(
             <div className='flex space-x-3 items-center' key={index}>
                 <stat.icon className='text-purple h-5 w-5'/>

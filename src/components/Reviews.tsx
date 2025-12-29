@@ -15,15 +15,15 @@ const Reviews = () => {
                 Loved by Thousands of Readers Worldwide
             </h2>
             <div className="flex gap-1 items-center">
-                <Stars size={10}/>
+                <Stars size={34} classname={"fill-amber-400 text-amber-400"}/>
                 <span className="text-2xl text-muted-foreground ml-2">
                     4.9 / 5.0
                 </span>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-13">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-13">
                 {data.map((review, index)=>(
-                    <div key={index}className="flex flex-col gap-4 p-6 border-2 rounded-lg border-purple-200  text-start hover:shadow-2xl hover:border-purple transition-all duration-300">
-                        <Stars size={5}/>
+                    <div key={index}className="flex flex-col gap-4 p-8 border-2 rounded-2xl border-purple-200  text-start hover:shadow-2xl hover:border-purple transition-all duration-300">
+                        <Stars size={20} classname={"fill-amber-400 text-amber-400"}/>
                         <p className="text-lg text-muted-foreground">{review.text}</p>
                         <div className="flex flex-col">
                         <span>{review.name}</span>

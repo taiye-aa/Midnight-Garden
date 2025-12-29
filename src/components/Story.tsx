@@ -16,7 +16,7 @@ const Story = () => {
                     <span className='border-2 w-fit font-semibold bg-primary-gradient bg-clip-text text-transparent'>THE STORY</span>
                     <div className='h-1 w-21 bg-primary-gradient'></div>
                 </div>
-                <h2 className='text-foreground text-4xl lg:text-5xl leading-tight tracking-tight'>
+                <h2 className='text-text-color text-4xl lg:text-5xl leading-tight tracking-tight'>
                     Where forgotten dreams take root
                 </h2>
                 <div className='space-y-6 text-md md:text-lg text-muted-foreground leading-relaxed'>
@@ -33,7 +33,7 @@ const Story = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 '>
                     {tags.map((tag, index)=>(
-                        <div className={cn('p-4 rounded-lg border-2 border-purple-600/30 flex flex-col items-center md:items-start ',
+                        <div className={cn('p-4 rounded-2xl border-2 border-purple-600/30 flex flex-col items-center md:items-start ',
                             'hover:border-purple-600 hover:bg-purple-300/20 transition-all duration-300 cursor-pointer'
                         )}
                          key={index}>
@@ -44,7 +44,7 @@ const Story = () => {
                 </div>
             </div>
             <div className='relative flex items-center'>
-                <img src="images/flower.jpeg" alt="" className='rounded-lg shadow-2xl'/>
+                <img src="images/flower.jpeg" alt="" className='rounded-2xl shadow-2xl'/>
                 <div className='bg-background absolute w-[250px] md:w-full md:max-w-80 -bottom-6 -left-6 shadow-xl border border-secondary p-4 md:p-6 rounded-xl space-y-3'>
                     <Quote className='h-4 w-4 md:h-10 md:w-10 text-purple'/>
                     <i>"A masterpiece that will haunt you long after the last page"</i>

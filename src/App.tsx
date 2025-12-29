@@ -4,6 +4,8 @@ import Strip from './components/Strip'
 import Story from './components/Story'
 import About from './components/About'
 import Reviews from './components/Reviews'
+import Sample from './components/Sample'
+import Category from './components/Category'
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <Story/>
     <About/>
     <Reviews/>
+    <Sample/>
+    <Category/>
     </>
   )
 }
