@@ -15,7 +15,7 @@ const Sample = () => {
             </p>
         </div>
         <div>
-            <div className='max-w-4xl text-xl text-white/90 leading-relaxed flex flex-col items-center bg-background/10 backdrop-blur-md border border-background/20 px-8 py-9 gap-4 rounded-2xl mt-8'>
+            <div className='max-w-4xl text:lg w-md md:w-3xl lg:w-full md:text-xl text-white/90 leading-relaxed flex flex-col items-center bg-background/10 backdrop-blur-md border border-background/20 px-8 py-9 gap-4 rounded-2xl mt-8'>
                 <Quote className='text-purple h-10 w-10'/>
                 <i>"The garden appeared at the stroke of midnight, materializing from shadow and moonlight like a secret the city had kept for centuries. Emma stood at its gates, her heart pounding, 
                     knowing that once she stepped inside, nothing would ever be the same..."</i>

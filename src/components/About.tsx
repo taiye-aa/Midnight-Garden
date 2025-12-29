@@ -24,7 +24,7 @@ const About = () => {
                 <h2 className='text-4xl lg:text-5xl text-text-color'>
                     Sarah Chen
                 </h2>
-                <div className='flex gap-4'>
+                <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
                     {achivements.map((item, index)=>(
                         <div className={`px-2 py-1 flex items-center rounded-lg gap-2 ${item.bgColor}`} key={index}>
                             <item.icon className={`h-3 w-3 ${item.color}`}/>
