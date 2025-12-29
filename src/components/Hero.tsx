@@ -1,4 +1,4 @@
-import { ArrowRight, ShoppingBag } from 'lucide-react'
+import { ArrowRight, ShoppingBag, Sparkles } from 'lucide-react'
 import Stars from './Stars'
 
 const Hero = () => {
@@ -11,7 +11,10 @@ const Hero = () => {
     <section id='hero' className='relative min-h-screen pt-32 pb-20 px-6 overflow-hidden'>
         <div className='container grid grid-cols-1 gap-16 lg:gap-32 lg:grid-cols-2 max-w-7xl'>
             <div className='flex flex-col space-y-6 order-2 lg:order-1 text-start'>
-                <span className='px-2 py-1 bg-primary-gradient text-background w-fit rounded-lg text-xs font-semibold'>New York Times Bestseller</span>
+                <div className=' flex gap-3 px-2 py-1 bg-primary-gradient text-background w-fit rounded-lg text-xs font-semibold'>
+                   <Sparkles className='h-4 w-4'/><span >New York Times Bestseller</span>
+
+                </div>
                 <h1 className='text-6xl lg:text-7xl tracking-tight text-text-color leading-tight'>
                     The Midnight <span className='bg-primary-gradient bg-clip-text text-transparent'>Garden</span>
                 </h1>
