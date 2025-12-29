@@ -42,7 +42,7 @@ const Hero = () => {
                 </div>
 
             </div>
-            <div className='flex justify-center md:justify-end items-center w-full order-1 lg:order-2 '>
+            <div className='flex justify-center lg:justify-end items-center w-full order-1 lg:order-2 '>
                 <img src="images/hero-img.jpeg" alt="" className='rounded-2xl w-4xl max-w-md shadow-2xl ring-1 ring-slate-900/5 transform hover:scale-105 transition-transform duration-500'/>
             </div>
 
