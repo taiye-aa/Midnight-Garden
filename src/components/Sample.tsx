@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, Quote } from 'lucide-react'
 const Sample = () => {
   return (
     <section id='sample' className='overflow-hidden flex justify-center items-center flex-col min-h-screen px-24 bg-[url("/images/pooh.jpeg")] bg-cover bg-center'>
-        <div className='bg-slate-900/90 h-screen w-screen flex flex-col justify-center items-center'>
+        <div className='bg-slate-900/90 h-screen px-2 w-screen flex flex-col justify-center items-center'>
         <BookOpen className='text-purple h-16 w-16 mt-10'/>
         <div className='max-w-2xl mt-6'>
             <h2 className='text-white text-4xl tracking-tight lg:text-5xl mb-6'>
