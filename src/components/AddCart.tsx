@@ -16,7 +16,7 @@ const AddCart = () => {
                 <button className="flex items-center text-sm lg:text-lg whitespace-nowrap bg-white text-purple cursor-pointer hover:bg-purple hover:text-white transition-all duration-300 py-2 px-4 lg:px-4 font-medium rounded-lg gap-3"><ShoppingBag className="h-5 w-5"/>Buy Now - $24.99</button>
                 <button className="bg-white text-purple text-sm lg:text-lg whitespace-nowrap w-fit py-2 px-4 lg:px-10 cursor-pointer hover:bg-purple hover:text-white transition-all duration-300 font-medium rounded-lg text-center">Add to Cart</button>
             </div>
-            <span className="text-white mt-4">Free shipping on orders over $35</span>
+            <span className="text-white mt-4 whitespace-nowrap">Free shipping on orders over $35</span>
         </div>
     </section>
   )
