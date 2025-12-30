@@ -15,13 +15,13 @@ const Sample = () => {
             </p>
         </div>
         <div>
-            <div className='max-w-4xl text:lg w-md md:w-3xl lg:w-full md:text-xl text-white/90 leading-relaxed flex flex-col items-center bg-background/10 backdrop-blur-md border border-background/20 px-8 py-9 gap-4 rounded-2xl mt-8'>
+            <div className='max-w-4xl text:lg w-md md:w-3xl lg:w-full md:text-xl text-white/90 leading-relaxed flex flex-col items-center bg-background/10 backdrop-blur-md border border-white/20 px-8 py-9 gap-4 rounded-2xl mt-8'>
                 <Quote className='text-purple h-10 w-10'/>
                 <i>"The garden appeared at the stroke of midnight, materializing from shadow and moonlight like a secret the city had kept for centuries. Emma stood at its gates, her heart pounding, 
                     knowing that once she stepped inside, nothing would ever be the same..."</i>
             </div>
         </div>
-        <button className='group px-4 py-2 flex text-text-color items-center mt-8 bg-background rounded-lg font-medium text-lg gap-4 hover:bg-purple hover:text-white transition-all duration-300 cursor-pointer'>
+        <button className='group px-4 py-2 flex text-text-color items-center mt-8 bg-white rounded-lg font-medium text-lg gap-4 hover:bg-purple hover:text-white transition-all duration-300 cursor-pointer'>
             Read Sample Chapter <ArrowRight className='h-4 w-4'/>
         </button>
 
