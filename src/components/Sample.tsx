@@ -21,7 +21,7 @@ const Sample = () => {
                     knowing that once she stepped inside, nothing would ever be the same..."</i>
             </div>
         </div>
-        <button className='group px-4 py-2 flex text-text-color items-center mt-8 bg-white rounded-lg font-medium text-lg gap-4 hover:bg-purple hover:text-white transition-all duration-300 cursor-pointer'>
+        <button className='group px-4 py-2 flex text-black items-center mt-8 bg-white rounded-lg font-medium text-lg gap-4 hover:bg-purple hover:text-white transition-all duration-300 cursor-pointer'>
             Read Sample Chapter <ArrowRight className='h-4 w-4'/>
         </button>
 
