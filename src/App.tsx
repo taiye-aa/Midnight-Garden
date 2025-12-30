@@ -6,6 +6,8 @@ import About from './components/About'
 import Reviews from './components/Reviews'
 import Sample from './components/Sample'
 import Category from './components/Category'
+import AddCart from './components/AddCart'
+import NavBottom from './components/NavBottom'
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
     <Reviews/>
     <Sample/>
     <Category/>
+    <AddCart/>
+    <NavBottom/>
     </>
   )
 }
