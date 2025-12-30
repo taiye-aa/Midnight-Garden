@@ -4,8 +4,8 @@ const AddCart = () => {
   return (
     <section id="cart" className="overflow-hidden px-24 py-7 bg-gradient-to-br from-fuchsia-500 via-pink-500 to-indigo-500 ">
         <div className="container flex items-center flex-col justify-center gap-4 mt-8 mb-8">
-            <div className="max-w-2xl  min-w-md">
-                <h2 className="text-white text-4xl lg:text-5xl mb-8">
+            <div className="max-w-2xl  min-w-[400px]">
+                <h2 className="text-white text-[33px] lg:text-5xl mb-8">
                 Begin your journey tonight
             </h2>
             <p className="text-white text-xl mb-8">
