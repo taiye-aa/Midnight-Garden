@@ -30,7 +30,7 @@ const Navbar = () => {
         }
            
         >
-            <div className='container flex justify-between items-center py-5'>
+            <div className='container flex justify-between items-center py-5 px-2 md:px-0'>
                 <h1 className='text-xl z-100 sm:text-2xl bg-clip-text bg-primary-gradient text-transparent'>Midnight Garden</h1>
                 <div className='hidden md:flex space-x-7  items-center'>
                     {navItems.map((item, index)=>(
