@@ -43,13 +43,11 @@ const Navbar = () => {
                 <ThemeToggle/>
                 </div>
                     
-                <div className='flex gap-4'>
-                    <ThemeToggle/>
                     <button className='md:hidden z-100' onClick={() => setIsMenuOpen(prev=>!prev)}
                     aria-label={isMenuOpen? "Close menu": "Open menu"}>
                     {isMenuOpen? <XIcon/> :<Menu/>}
                 </button>
-                </div>
+                
                     {/* {MobileMenu} */}
                 <div className={cn('fixed top-0 left-0 right-0 h-1/2 bg-background/50 backdrop-blur-lg  justify-center items-center',
                     'md:hidden transition-all duration-300 px-8 py-6',
